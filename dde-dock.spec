@@ -101,5 +101,5 @@ export PATH=%{_qt5_bindir}:$PATH
 
 
 %changelog
-* Wed Jun 10 2020 uoser <uoser@uniontech.com> - 5.1.0.13
-- Update to 5.1.0.13
+* Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.1.0.13-1
+- Package init
