@@ -1,12 +1,12 @@
 %global sname deepin-dock
 
 Name:           dde-dock
-Version:        5.1.0.13
-Release:        2
+Version:        5.3.0.31
+Release:        1
 Summary:        Deepin desktop-environment - Dock module
 License:        GPLv3
 URL:            http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/RERFNS4wLjAuNjU3NQ/pool/main/d/dde-dock/
-Source0:        http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/RERFNS4wLjAuNjU3NQ/pool/main/d/%{name}/%{name}_%{version}.orig.tar.xz	
+Source0:        %{name}_%{version}.orig.tar.xz
 
 BuildRequires:  cmake
 BuildRequires:  gcc-c++
@@ -101,6 +101,9 @@ export PATH=%{_qt5_bindir}:$PATH
 
 
 %changelog
+* Thu Jul 08 2021 weidong <weidong@uniontech.com> - 5.3.0.31-1
+- Update to 5.3.0.31
+
 * Thu Sep 3 2020 weidong <weidong@uniontech.com> - 5.1.0.13-2
 - fix source url in spec
 
